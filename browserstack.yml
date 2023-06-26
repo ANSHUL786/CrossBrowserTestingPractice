@@ -1,0 +1,17 @@
+userName: anshulgoyal_Nt4FsU
+accessKey: bcH5vRnppyxXLkMtV2Lm
+framework: testng
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: 103.0
+  - os: Windows
+    osVersion: 10
+    browserName: Edge
+    browserVersion: latest
+  - os: OS X
+    osVersion: Big Sur
+    browserName: Safari
+    browserVersion: 14.1
+    networkLogs: true

@@ -1,0 +1,63 @@
+11:50:35.803 [main] ERROR c.b.config.BrowserStackConfig - Malformed browserstack.yml file - java.lang.NullPointerException: Cannot invoke "java.util.Map.size()" because "m" is null.
+11:50:35.809 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:50:35.818 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+11:50:35.819 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Empty userName or accessKey
+11:54:21.567 [main] INFO  c.b.config.BrowserStackConfig - INFO
+12:00:52.358 [main] ERROR c.b.config.BrowserStackConfig - Malformed browserstack.yml file - java.lang.NullPointerException: Cannot invoke "java.util.Map.size()" because "m" is null.
+12:00:52.365 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:00:52.372 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+12:00:52.373 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Empty userName or accessKey
+12:08:34.009 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:08:34.023 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:09:09.379 [main] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/186xbfydgzuthn2t1bq38f1ou0pllebkm2wdctnv to view build report, insights, and many more debugging information all at one place!
+
+12:09:09.634 [Thread-0] WARN  c.browserstack.utils.UtilityMethods - Unable to show build URL, as build capability is not used
+12:09:09.634 [Thread-0] INFO  c.b.config.BrowserStackConfig - WARN
+12:21:41.594 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:21:41.613 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:22:10.000 [getTitle@2] ERROR c.browserstack.utils.UtilityMethods - Mark Session Name failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionName","arguments":{"name":"X.Testtitlefacebook-getTitle2"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G314, safari:platformVersion: 11.6.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: 5c397d182ad52ba455360dab7f2..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+12:22:12.232 [getTitle@1] ERROR c.browserstack.utils.UtilityMethods - Mark Session Name failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionName","arguments":{"name":"X.Testtitlefacebook-getTitle2"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 114.0.1823.37, ms:edgeOptions: {debuggerAddress: localhost:3153}, msedge: {msedgedriverVersion: 114.0.1823.37 (7a86dd8802e2..., userDataDir: C:\Windows\proxy\scoped_dir...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 969bd51e38e165471eeb3285b2d...}
+12:22:15.628 [getTitle@0] ERROR c.browserstack.utils.UtilityMethods - Mark Session Name failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionName","arguments":{"name":"X.Testtitlefacebook-getTitle2"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:5238}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 06312b29992c3c8182d3b57ab80...}
+12:22:31.704 [main] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/1fmwnoek6wneqrjieimfv6aaptnp3xzas5t8jfnw to view build report, insights, and many more debugging information all at one place!
+
+12:22:32.000 [Thread-0] WARN  c.browserstack.utils.UtilityMethods - Unable to show build URL, as build capability is not used
+12:22:32.000 [Thread-0] INFO  c.b.config.BrowserStackConfig - WARN
+12:41:58.670 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:41:58.677 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:42:24.188 [getTitle@1] ERROR c.browserstack.utils.UtilityMethods - Mark Session Name failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionName","arguments":{"name":"X.Testtitlefacebook-getTitle2"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 114.0.1823.37, ms:edgeOptions: {debuggerAddress: localhost:3240}, msedge: {msedgedriverVersion: 114.0.1823.37 (7a86dd8802e2..., userDataDir: C:\Windows\proxy\scoped_dir...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 80dd2a139d30280221e2d7d446b...}
+12:42:25.978 [getTitle@0] ERROR c.browserstack.utils.UtilityMethods - Mark Session Name failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionName","arguments":{"name":"X.Testtitlefacebook-getTitle2"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:4136}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 2cc30738111547f79856b0c3549...}
+12:42:33.316 [getTitle@2] ERROR c.browserstack.utils.UtilityMethods - Mark Session Name failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionName","arguments":{"name":"X.Testtitlefacebook-getTitle2"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G314, safari:platformVersion: 11.6.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: 6ed95961355907deba57d9e8f1a..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+12:42:50.791 [main] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/iurncsfz4p11zrk9oedoq6c4w2onxafjqbr7rd6l to view build report, insights, and many more debugging information all at one place!
+
+12:42:50.963 [Thread-0] WARN  c.browserstack.utils.UtilityMethods - Unable to show build URL, as build capability is not used
+12:42:50.965 [Thread-0] INFO  c.b.config.BrowserStackConfig - WARN
